@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="./public/logo.png" alt="RTDB Inspector Logo" width="120" />
 
-## Getting Started
+  # 🔍 RTDB Inspector
 
-First, run the development server:
+  <p align="center">
+    <strong>A powerful, production-ready web tool to analyze, explore, and audit Firebase Realtime Databases.</strong>
+  </p>
+
+  <p align="center">
+    <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js" /></a>
+    <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" alt="React" /></a>
+    <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" /></a>
+    <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript" alt="TypeScript" /></a>
+    <a href="https://firebase.google.com/"><img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" /></a>
+  </p>
+</div>
+
+---
+
+## ⚡ Overview
+
+**RTDB Inspector** is a developer tool designed to help you quickly assess the security posture of any Firebase Realtime Database. Simply paste a Firebase URL, and the inspector will safely probe the database's read, write, update, and delete permissions. If the database is accessible, you can seamlessly explore the data using an optimized, interactive JSON tree viewer.
+
+## ✨ Key Features
+
+- 🛡️ **Security Analyzer**: Non-destructive testing of database permissions (Read, Write, Delete, Patch) and visibility of security rules.
+- 🌳 **Interactive Data Explorer**: A powerful JSON tree viewer tailored for large datasets.
+- 🚀 **High Performance**: Built-in pagination ("Load More") and intelligent key-filtering prevents browser freezes when dealing with massive databases.
+- 💾 **Instant Exports**: One-click download of the complete database JSON structure.
+- 🕒 **Smart History**: Automatically saves your recently analyzed database URLs via `localStorage` for lightning-fast re-access.
+- 📱 **Fully Responsive**: A modern, sleek UI that looks and works great on both desktop and mobile devices.
+
+## 🚀 Getting Started
+
+First, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/iamjaved026/rtdb-inspector.git
+cd rtdb-inspector
+npm install
+# or
+yarn install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to launch the inspector.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚠️ Disclaimer
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> Use this tool responsibly. RTDB Inspector is intended for auditing your own databases or those you have explicit permission to test. Do not use this tool to exploit or maliciously interact with third-party databases.
 
-## Learn More
+## 🤝 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/iamjaved026/rtdb-inspector/issues).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👨‍💻 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Javed Hussain**
+- GitHub: [@iamjaved026](https://github.com/iamjaved026)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+<div align="center">
+  Made with ❤️ using Next.js & Tailwind CSS
+</div>
