@@ -8,6 +8,10 @@
   </p>
 
   <p align="center">
+    <a href="http://rtdb-inspector.shapemysite.in/"><img src="https://img.shields.io/badge/Live_Demo-View_Now-brightgreen?style=for-the-badge&logo=vercel" alt="Live Demo" /></a>
+  </p>
+
+  <p align="center">
     <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js" /></a>
     <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" alt="React" /></a>
     <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" /></a>
@@ -68,5 +72,5 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ---
 <div align="center">
-  Made with ❤️ using Next.js & Tailwind CSS
+  Made with ❤️ By Javed Hussain
 </div>
